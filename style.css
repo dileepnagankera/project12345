@@ -1,0 +1,87 @@
+#logo{
+    padding: 20px;
+    margin: 20px;
+    background: black;
+    
+}
+
+.navbar{
+    color: white;
+    float:right;
+
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+    
+}
+.navbar li a {
+    color: white;
+}
+.read{
+    background: url("./image/photo1.jpg");
+    height: 400px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+.read h1{
+    padding: 100px;
+}
+.about {
+    text-align: center;
+}
+.para {
+    box-sizing: border-box;
+    background: #c4c7cc;
+    color: black;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    background-color: black;
+    color: white;
+    width: 140px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100%;
+    font-size: 30px;
+  }
+  .flex-container .box-1  {
+   background-color:red;
+   border-radius: 5px;
+  }
+  .flex-container .box-2  {
+    background-color:#03fc0b;
+    border-radius: 5px;
+   }
+   .flex-container .box-3 {
+    background-color:#0388fc;
+    border-radius: 5px;
+   }
+   .flex-container .box-4  {
+    background-color:#03fc0b;
+    border-radius: 5px;
+   }
+   .WhoWAre{
+    text-align: center;
+   }
+   .container .row{
+    display: flex;
+    padding: 40px;
+    margin: 20px;
+    justify-content: space-between;
+   }
+   .container .row1 img h4{
+    display: flex;
+   }
